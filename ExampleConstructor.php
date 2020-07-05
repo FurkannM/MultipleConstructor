@@ -1,6 +1,6 @@
 <?php
 
-class Example extends MultipleConstructor{
+class ExampleConstructor extends MultipleConstructor{
 
 	public function __construct0() {
         echo "MultipleConstructor test without argument";
