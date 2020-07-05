@@ -1,7 +1,7 @@
 <?php
 require_once "MultipleConstructor.php";
-require_once "Example.php";
+require_once "ExampleConstructor.php";
 
-new Example();
-new Example("one");
-new Example("one", "two");
+new ExampleConstructor();
+new ExampleConstructor("one");
+new ExampleConstructor("one", "two");
